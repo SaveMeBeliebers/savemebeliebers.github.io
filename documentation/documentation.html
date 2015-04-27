@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Vinci</title>   
+
+<meta name="description" content=""> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="320">   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<style type="text/css">
+	p { margin-bottom: 20px;}
+	img { margin-bottom: 20px;}
+	.mar-bot {margin-bottom: 20px;}
+</style>
+
+</head>
+
+<body>
+	<div class="container">
+		<header>
+
+			<hr>
+			<h4 class="text-center">Created by: Nick Teodorescu</h4>
+			<h4 class="text-center">Date: 28.03.2014</h4>
+			<h4 class="text-center">Email: <a href="mailto:nikolaus.teodorescu@gmail.com">nikolaus.teodorescu@gmail.com</a></h4>
+			<hr>
+			<h4 class="text-center">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/Nikolaus1005">here</a>. Thank you very much!</h4>
+			<hr>
+			<h3 id="toc"><strong>Table of Contents:</strong></h3>
+		</header>
+		<ol>
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#slider">Slider Settings</a></li>
+			<li><a href="#customization">Text and Images Customization</a></li>
+			<li><a href="#form">Contact Form</a></li>
+			<li><a href="#sources">Sources</a></li>	
+		</ol>
+		<hr>
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">Go to top</a></h3>
+		<p> The first div contains the loader for the website. There is a section for each slide of the website. In the end, there is a short section for the footer. Here is the general structure.</p>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="images/html-structure-1.jpg" alt="HTML structure 1">
+			</div>
+			<div class="col-md-6">
+				<img src="images/html-structure-2.jpg" alt="HTML structure 2">
+			</div>
+		</div>
+		<hr>
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">Go to top</a></h3>
+		<p> This websites is build on the Bootstrap 3 grid. Therefore, one of CSS files of the template is <strong>bootstrap.css</strong>.</p>
+		<p> The main css file containing all the custom styles is <strong>style.css</strong>. The second file contains all of the specific stylings for the page. First of all there is a table of contents containing all the sections of the file (left picture). The file is separated into sections as bellow (right picture).</p> 
+		<div class="row">
+			<div class="col-md-6">
+				<img src="images/css-1.jpg" alt="CSS File Table of Contents">
+			</div>
+			<div class="col-md-6">
+				<pre> /* ==================================================
+	1. Basic Styles
+===================================================== */
+ code
+
+/* ==================================================
+   2. Typography
+==================================================== */
+	
+ code
+	
+/* ==================================================
+   3. Home Slider
+===================================================== */
+	
+ code
+	
+/* ==================================================
+   4. Header
+====================================================== */
+	
+ code
+
+/* ==================================================
+   5. Mobile Navigation
+====================================================== */
+	
+ code
+			</pre>
+			</div>
+		</div>
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+		<p>	Likewise, the CSS folder contains the iconic font files and the files which are part of the Javascript plugins I am using (<strong>supersized.css</strong>, <strong>supersized.shutter.css</strong>, <strong>fancybox/jquery.fancybox.css</strong>, <strong>animate.css</strong>, <strong>owl.theme.css</strong>, <strong>owl.carousel.css</strong>). 
+		</p>	
+		<hr>
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">Go to top</a></h3>		
+		<div class="row">
+			<div class="col-md-6">
+				<p>These are the JS files that are loaded into templates in end of the Body Section. Only Modernizr.js is loaded in Head Section.</p>
+				<p>This theme imports three types of Javascript files:</p>				  
+				<ol>
+					<li><a href="http://jquery.com/" target="_blank"><strong>jQuery</strong></a> - a Javascript library that greatly reduces the amount of code that must be written.</li>
+					<br>
+					<li><strong>My custom scripts.</strong> You can find the custom script in the <strong>script.js</strong> file.
+					</li>
+					<br>
+					<li><strong>Plugins.</strong> In addition to the custom scripts, I implement a few plugins to create the effects. You can find the script of some plugins in the <strong>plugins.js</strong>.
+					</li> 
+					<br>
+					<p>These are the rest of the scripts used in the template with their related link for documentation.</p>
+					<ul>
+						<li><a href="http://modernizr.com" target="_blank">Modernizr</a> - a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.</li>
+                        <li><a href="https://github.com/scottjehl/Respond" target="_blank">Respond</a> - a JavaScript plugin to responsive web designs in browsers that don't support CSS3 Media Queries - Internet Explorer 8 and under.</li>
+                        <li><a href="https://github.com/aFarkas/html5shiv" target="_blank">HTML5Shiv</a> - a JavaScript plugin to to enable use of HTML5 sectioning elements in Internet Explorer.</li> 
+                    	<li><a href="http://getbootstrap.com/getting-started/#download/" target="_blank">Twitter Bootstrap 3</a> - one of the most popular front-end development frameworks in the world.</li>
+                    	<li><a href="http://buildinternet.com/project/supersized/" target="_blank">SuperSized</a> - a fullscreen background slideshow built using the jQuery library.</li>
+                    	<li><a href="http://www.inwebson.com/jquery/jpreloader-a-preloading-screen-to-preload-images/" target="_blank">jPreloader</a> - a Javascript library that lets you manage and co-ordinate the loading of assets.</li>
+                    	<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blafor nk">jQuery Easing</a> - a jQuery plugin for advanced easing options.</li>
+                    	<li><a href="http://imakewebthings.com/jquery-waypoints/" target="_blank">Waypoints</a> - a jQuery plugin that makes it easy to execute a function whenever you scroll to an element.</li>
+                    	<li><a href="http://markdalgleish.com/projects/stellar.js/" target="_blank">Stellar</a> - a jQuery plugin that provides parallax scrolling effects to any scrolling element.</li>
+                    	<li><a href="http://fancyapps.com/fancybox/" target="_blank">Fancybox</a> - a plugin for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page.</li>
+                    	<li><a href="https://github.com/matthieua/WOW/" target="_blank">Wow</a> - a jQuery plugin for revealing CSS animation as you scroll down a page.</li>
+    					<li><a href="http://isotope.metafizzy.co/" target="_blank">Isotope Filter</a> -  a jQuery plugin for hide and revealing item elements.</li> 
+    					<li><a href="http://designshack.net/articles/javascript/sliding-client-testimonials-carousel-with-jquery/" target="_blank">Carousels</a> - a sliding clients carousel.</li>
+    					<li><a href="http://owlgraphic.com/owlcarousel/" target="_blank">Owl Carousel</a> - a sliding testimonials carousel.</li>
+    					<li><a href="https://github.com/bfintal/Counter-Up/" target="_blank">Counter Up</a> - a jQuery plugin that counts up to a targeted number when the number becomes visible.</li>
+    					<li><a href="https://github.com/rickharrison/validate.js/" target="_blank">Validate</a> - a JavaScript form validation library.</li>
+                	</ul>
+                	<br>
+                	<li><strong>Google map.</strong> You can easily change the parameters (latitude-longitude and the styles).</li>	
+				</ol>
+			</div>
+			<div class="col-md-6">
+				<img src="images/js.jpg" alt="JavaScript">
+				<img src="images/map.jpg" alt="Google map">
+			</div>					
+		</div>		
+		<hr>
+		<h3 id="slider"><strong>D) Slider settings</strong> - <a href="#toc">Go to top</a></h3>
+		<p>This is the HTML syntax for the slider.</p>
+		<img src="images/slider-html.jpg" alt="Slider HTML">
+		<p>You can find the CSS for the slider in the third section of <strong>style.css</strong> file.
+		<p>You can find the JS script that affects the slider in the beginning of the <strong>script.js</strong> file. You can change the default parameters of the slider. Enter the path for images, insert text, a thumb and a URL for a possible link.</p>
+		<img src="images/slider-js.jpg" alt="Slider JS">
+		<p>For more information I recomand you to read the documentation on <a href="http://buildinternet.com/project/supersized/" target="_blank"><strong>Supersized Plugin</strong></a>.</p>
+		<hr>
+		<h3 id="customization"><strong>E) Text and images customization</strong> - <a href="#toc">Go to top</a></h3>
+		<p>In HTML file, you can easily change the text between the <strong>p</strong> or the <strong>h</strong> tags. </p>
+		<img src="images/custom-text.jpg" alt="Custom Text">
+		<p>You can change the images in the HTML file as well by typing the source of you image files. Exemple: img src="img/portfolio/thumbs/1.jpg" </p>
+		<img src="images/custom-img.jpg" alt="Custom Images">
+		<p>For social media customization replace the # symbol with the social media link. Exemple: www.twitter.com/username.</p>
+		<img src="images/social.jpg" alt="Social Media">
+		<hr>
+		<h3 id="form"><strong>F) Contact Form</strong> - <a href="#toc">Go to top</a></h3>
+		<p>In the Contact Folder there is a PHP script (<strong>config.php</strong>) that you have to custom by changing the default email to your email address. </p>
+		<img src="images/form.jpg" alt="Contact Form">
+		<hr>
+		<h3 id="sources"><strong>G) Sources</strong> - <a href="#toc">Go to top</a></h3>
+		<p>I've used free stock images from the following sources:</p>
+		<ul>
+			<li><a href="http://www.dreamstime.com/free-photos">Dreamstime.com</a></li>
+			<li><a href="http://gratisography.com/">Gratisography.com</a></li>
+			<li><a href="http://splitshire.com/">Splitshire.com</a></li>
+		</ul>
+		<p>The iconic font I've used is <strong>Font Awesome</strong>. You can find out more about Font Awesome <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here.</a></p>	
+		<hr>
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme.</p> 
+		
+		<p><strong>Nick Teodorescu</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>	
+	</div><!-- end div .container -->	
+</body>
+</html>
